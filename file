@@ -1,0 +1,38 @@
+Java Homework
+
+1) Spring Boot App:
+- using at least Java 8 (use java streams)
+- build an REST API (JSON format) :
+- GET
+- POST
+- DELETE
+- read/write/delete data from DB (either in memory or standalone) (SQL/NoSQL)
+- write tests using embedded db
+
+How it works:
+- make calls using Postman to show working functionality
+
+Description:
+Build a Spring Boot Application that can read/write/delete data from a DB. We can simmulate a library (loan books to people).
+We can add new books to our inventory, modify data about existing books, remove books that we don't use anymore.
+We would also like to keep track of which book was given to whick person, and if a person has returned the book, we need to make it available again.
+
+
+Expectations:
+- follow Spring guidelines for builing a sevice: separate in layers (controller, service, repo)
+- using Java 8 functionality properly
+- clean code / simple code
+- endpoint input validation
+- db modelling knowledge
+- unit tests, meaningfull tests
+
+
+
+
+2) Electric scooter rental APP
+
+Description:
+Build a Spring Boot Application that can read/write/delete data form a DB. We can simmulate an electric scooter rental application.
+We need to be able to add/update/delete(soft delete) scooters, check rentals, get reports on how the scooters were used in a certain period.
+People need to be able to rent scooters and the app will need to calculate the price of the ride based on how the scooter was used.
+The user can also check hes ride history.
